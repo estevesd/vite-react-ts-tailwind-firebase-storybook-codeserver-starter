@@ -1,6 +1,7 @@
-# ⚡ vite-react-ts-tailwind-starter
+# ⚡ vite-react-ts-tailwind-firebase-storybook-codeserver-starter
 
 Starter using Vite + React + TypeScript + Tailwind with Firebase.
+also Storybook and config alterations to run under hosted code-server with TLS
 
 ## Motivation
 
@@ -17,6 +18,7 @@ This starter uses following libraries:
 - Firebase(v9, modular)
 - ESLint
 - Prettier
+- Storybook
 
 ## Set up
 
@@ -87,6 +89,8 @@ If you don't want to use it, just remove the package and remove config in `tailw
 This library is not suitable for everyone, but I think it is one of the best libraries for prototyping. Therefore, I have added it to this repository.
 
 The Firebase js SDK has become very useful in version 9, with [optimizations that greatly reduce bundle size](https://firebase.google.com/docs/web/modular-upgrade).
+
+[Storybook](https://storybookjs.com) is an open source tool for building UI components and pages in isolation. It streamlines UI development, testing, and documentation.
 
 ### How to Use
 
