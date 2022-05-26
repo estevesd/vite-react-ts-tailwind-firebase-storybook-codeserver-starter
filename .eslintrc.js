@@ -3,11 +3,7 @@ module.exports = {
     browser: true,
     es2021: true
   },
-  extends: [
-    'plugin:react/recommended',
-    'standard',
-    'prettier'
-  ],
+  extends: ['plugin:react/recommended', 'standard', 'prettier', 'plugin:storybook/recommended'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
@@ -18,29 +14,23 @@ module.exports = {
   },
   settings: {
     react: {
-      version: 'detect',
-    },
+      version: 'detect'
+    }
   },
-  plugins: [
-    'react',
-    '@typescript-eslint'
-  ],
+  plugins: ['react', '@typescript-eslint'],
   rules: {
     'react/prop-types': 'off',
     'react/jsx-curly-brace-presence': 'error',
     // React 17
     'react/jsx-uses-react': 'off',
     'react/react-in-jsx-scope': 'off',
-    'react/self-closing-comp': [
-      'error',
-      {
-        component: true,
-        html: true,
-      },
-    ],
+    'react/self-closing-comp': ['error', {
+      component: true,
+      html: true
+    }],
     'react/jsx-boolean-value': 'error',
     'prefer-template': "error",
     'jsx-quotes': ["error", "prefer-double"],
     "react/jsx-tag-spacing": "error"
   }
-}
+};

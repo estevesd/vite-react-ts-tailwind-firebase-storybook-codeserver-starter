@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Details",
+  "steps": [
+    {
+      "file": "vite.config.ts",
+      "description": "Plugin à utiliser lors de l'utilisation de react-refresh avec vite.",
+      "line": 6
+    },
+    {
+      "file": "tailwind.config.js",
+      "description": "Lorsque tailwindCSS est utilisé avec le compilateur JIT, il est pratique d'utiliser des noms de classe avec des valeurs dynamiques.",
+      "line": 3
+    },
+    {
+      "file": "index.html",
+      "description": "Comme esbuild est utilisé pour le développement dans l'environnement local, vous pouvez spécifier directement le fichier tsx.",
+      "line": 11
+    }
+  ]
+}

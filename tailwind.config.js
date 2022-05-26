@@ -25,7 +25,20 @@ module.exports = {
   ],
   daisyui: {
     themes: [
-      'emerald'
+      'emerald',
+      {
+        nord: {
+          "primary": "#5e81ac",
+          "secondary": "#81a1c1",
+          "accent": "#8fbcbb",
+          "neutral": "#3b4252",
+          "base-100": "#2e3440",
+          "info": "#88c0d0",
+          "success": "#a3be8c",
+          "warning": "#ebcb8b",
+          "error": "#bf616a",
+        },
+      }
     ],
   }
 }
